@@ -1,0 +1,55 @@
+.plant-container {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 150px 150px 0 0;
+}
+.plant-container img {
+    width: 80%;
+}
+.plant-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+.header{
+    background-color: green;
+}
+.header a, i{
+    font-family: poppins;
+    color: white !important;
+}
+.header, .navbar{
+   background: linear-gradient(135deg, #1F633B 0%, #0C3623 100%);
+}
+.first-heading{
+     font-family: "DM Serif Display", serif;
+     font-size: 50px;
+     text-align: center;
+     font-weight: 800;
+     line-height: 1.2;
+     color: white;
+}
+.main p{
+    color: aliceblue;
+    text-align: left;
+}
+.btn{
+    background: #C16E49;
+    
+}
+.price-circle {
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 69px;
+  width: 69px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: -33px;
+}
